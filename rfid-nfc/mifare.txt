@@ -1,0 +1,10 @@
+1. each RFID/NFC card has sectors
+  1.1 sector has blocks
+    a) block has 16 bytes data
+  2. 1K memory card has 16 sector
+    a) 4K card has 39 sectors, which 0-31 sectors has 4 blocks, 32-39 has 16 blocks
+
+1. operations of modification
+ 1.1 when changing sector, any operations
+    a) authentication either using Key-A or Key-B
+    b) then read/write
